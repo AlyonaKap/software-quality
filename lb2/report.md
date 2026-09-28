@@ -114,6 +114,11 @@ Passed
 
 ## Decision Table
 
+Були додані правила:
+- R3. invalid Username + valid Password
+- R4. valid Username + invalid Password
+- R5. invalid Username + invalid Password
+
 | | R1 | R2 | R3 | R4 | R5 |
 |---|---|---|---|---|---|
 | Username входить до списку допустимих? | T | T | F | T | F |
