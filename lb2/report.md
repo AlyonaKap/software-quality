@@ -1,4 +1,4 @@
-# Лаборатоорна робота 2
+# Лабораторна робота 2
 ## Проєктування тестів. Checklist, Test Cases та Decision Table
 
 **Виконала:** Капінос Альона
@@ -137,6 +137,8 @@ Passed
 | TC-LOGIN-01 | Positive | Passed |
 | TC-LOGIN-02 | Negative | Passed |
 | TC-LOGIN-03 | Negative | Passed |
+
+
 
 
 
