@@ -18,7 +18,7 @@
 
 ## Test Design
 
-### calculateDiscount
+##calculateDiscount
 
 ## Test Condition:
 
@@ -26,59 +26,66 @@
 
 Test Data: 
 
-- price = 100
-- percent = 10
+price = 100
+percent = 10
 
 - TCND-02 - підрахунок фінальної ціни з валідною ціною та знижкою, що знаходиться на нижній межі;
 
 Test Data: 
 
-- price = 100
-- percent = 0 
+price = 100
+percent = 0 
 
 - TCND-03 - підрахунок фінальної ціни з валідною ціною та знижкою, що знаходиться на нижній межі;
 
 Test Data: 
 
-- price = 100
-- percent = 100 
+price = 100
+percent = 100 
 
 - TCND-04 - відхилення значення ціни та вивід валідаційного повідомлення при негативній ціні
 
 Test Data: 
 
-- price = -10
-- percent = 10
+price = -10
+percent = 10
 
 
-### validateQuantity
+## validateQuantity
 
-## Equivalence partitions
+### Equivalence partitions
 
 - Клас 1: Кількість < 1 | false
 - Клас 2: Кількість з діапазону - ціле число від 1 до 10 | true
 - Клас 3: Кількість > 10 | false
 - Клас 4: Кількість не є цілим числом | false
 
-## Boundary values
+### Boundary values
 
 Для діапазону слід визначити граничні значення. Це 3 значення на кожну межу. 
 
 - З верхньої межі: 
+
 Кількість = 0 | false
+
 Кількість = 1 | true
+
 Кількість = 2 | true
 
 - З нижньої межі: 
+
 Кількість = 9 | true
+
 Кількість = 10 | true
+
 Кількість = 11 | false
 
-### getShippingCost
+## getShippingCost
 
-## Гілки, що було перевірено
+### Гілки, що було перевірено
 
 - Безкоштовна доставка:
+
 Test Data:
 total =  1000
 
@@ -127,8 +134,8 @@ total =  -1
 
 Test Data: 
 
-- price = 100
-- percent = -10
+price = 100
+percent = -10
 
 Тест було пройдено, фінальне значення покриття:
 
