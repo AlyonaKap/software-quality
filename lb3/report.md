@@ -18,7 +18,7 @@
 
 ## Test Design
 
-##calculateDiscount
+## calculateDiscount
 
 ## Test Condition:
 
