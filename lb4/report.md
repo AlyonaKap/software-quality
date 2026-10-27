@@ -58,7 +58,8 @@ Request Body:
 
 - Status = 200
 - Response містить відправлені дані:
-● product = "Backpack"
+● product = "backpack"
+
 ● quantity = 2
 
 
@@ -66,7 +67,9 @@ Request Body:
 
 - Status = 200
 - Response містить відправлені дані:
-● product = "Backpack"
+  
+● product = "backpack"
+
 ● quantity = 2
 
 ## Автоматизований тест 
