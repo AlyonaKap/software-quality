@@ -1,0 +1,50 @@
+{
+  "info": {
+    "_postman_id": "1287ab70-481c-4871-8c1e-0a9e87a967f2",
+    "name": "Lab 4 - API Testing",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53689190",
+    "_collection_link": "https://go.postman.co/collection/53689190-1287ab70-481c-4871-8c1e-0a9e87a967f2?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "01 GET with Params",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "02 POST Json",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "03 Negative - 404",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": ""
+    }
+  ]
+}
