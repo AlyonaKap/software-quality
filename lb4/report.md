@@ -58,6 +58,7 @@ Request Body:
 
 - Status = 200
 - Response містить відправлені дані:
+  
 ● product = "backpack"
 
 ● quantity = 2
@@ -112,7 +113,7 @@ Passed
 | Request | Tests | Passed | Failed |
 | :--- | :--- | :--- | :--- |
 | GET with Params | 4 | 4 | 0 |
-| POST JSON | 5 | 5 | 5 |
+| POST JSON | 5 | 5 | 0 |
 | Negative - 404 | 2 | 2 | 0 |
 | **Усього** | **11** | **11** | **0** |
 
