@@ -21,17 +21,17 @@ Request: {{baseUrl}}/get?name=Alyona&role=student
 
 ### Expected Result
 
-Status = 200
-Content-Type містить application/json
-args.name = "Alyona"
-args.role = "student"
+- Status = 200
+- Content-Type містить application/json
+- args.name = "Alyona"
+- args.role = "student"
 
 ### Actual Result
 
-Status = 200
-Content-Type містить application/json
-args.name = "Alyona"
-args.role = "student"
+- Status = 200
+- Content-Type містить application/json
+- args.name = "Alyona"
+- args.role = "student"
 
 ## Автоматизований тест 
 
@@ -46,7 +46,9 @@ Passed
 ## 02 POST Json
 
 Request: {{baseUrl}}/post
+
 Request Body: 
+
 {
     "product": "backpack",
     "quantity": 2 
@@ -54,16 +56,16 @@ Request Body:
 
 ### Expected Result
 
-Status = 200
-Response містить відправлені дані:
+- Status = 200
+- Response містить відправлені дані:
 ● product = "Backpack"
 ● quantity = 2
 
 
 ### Actual Result
 
-Status = 200
-Response містить відправлені дані:
+- Status = 200
+- Response містить відправлені дані:
 ● product = "Backpack"
 ● quantity = 2
 
@@ -83,14 +85,14 @@ Request: {{baseUrl}}/status/404
 
 ### Expected Result
 
-Status = 404
-Body містить status = 404
+- Status = 404
+- Body містить status = 404
 
 
 ### Actual Result
 
-Status = 404
-Body містить status = 404
+- Status = 404
+- Body містить status = 404
 
 ## Автоматизований тест 
 
@@ -108,7 +110,7 @@ Passed
 | :--- | :--- | :--- | :--- |
 | GET with Params | 4 | 4 | 0 |
 | POST JSON | 5 | 5 | 5 |
-| Negative - 404 | 2 | | 0 |
+| Negative - 404 | 2 | 2 | 0 |
 | **Усього** | **11** | **11** | **0** |
 
 ## Висновок
